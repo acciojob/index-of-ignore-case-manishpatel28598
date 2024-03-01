@@ -1,6 +1,14 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-return s1.indexOf(s2);
+	let index = -1;
+
+	if(s1.indexOf(s2)>0){
+	return s1.indexOf(s2)
+	}
+	else{
+		return index;
+	}
+
 
 
 	
